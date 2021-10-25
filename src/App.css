@@ -1,20 +1,26 @@
 .header {
-    background:#3f51b5;
-    color:#fff;
-    padding: 1rem .8rem;
+  background: rgb(230, 0, 20);
+  color: #fff;
+  padding: 1rem 0.8rem;
+  box-shadow: 0 1px 3px rgb(0 0 0 / 20%);
 }
 
-.formularioContactos {
-    display: flex;
-    padding:.5rem;
+.formContato {
+  display: flex;
+  padding: 0.5rem;
 }
 
-.formularioContactos__input {
-    width:100%;
-    padding:.9rem;
+.formContato__input {
+  width: 100%;
+  padding: 0.9rem;
+  margin: 0 0.9rem;
 }
 
-.listaContacto__item {
-    padding:1.2rem 1rem;
-    font-size:1.2rem;
+.listaContato__item {
+  padding: 1.2rem 1rem;
+  font-size: 1.2rem;
+}
+
+.formContato__submit {
+  padding: 0 0.9rem;
 }
